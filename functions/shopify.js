@@ -7,9 +7,9 @@ const {
 } = process.env;
 
 const client = sanityClient({
-  projectId: SANITY_PROJECT_ID,
-  dataset: SANITY_DATASET,
-  token: SANITY_API_TOKEN,
+  projectId: '98iq9hxm' ,//SANITY_PROJECT_ID,
+  dataset: 'production', //SANITY_DATASET,
+  token: 'skjQ08BmnLkpT5q4HKrpktA6ctGaL3zxRIgsP4qzExm0cSSIk4wsGQ8nqvaEsJLR5Np7F4NcYaFNEJEfOMlGs8xewdy1YjuCIHkTw0raRB0esBlVjAVwWLWNofFnhlpE0DDf7BMkxMI53NhTiRCj900s6E9KYOGnWLyH36FktbZvqUMy1O03',//SANITY_API_TOKEN,
   useCdn: true
 });
 
