@@ -6,6 +6,7 @@ const {
   SANITY_DATASET,
 } = process.env;
 
+
 const client = sanityClient({
   projectId: SANITY_PROJECT_ID,
   dataset: SANITY_DATASET,
