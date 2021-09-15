@@ -9,7 +9,7 @@ const {
 const client = sanityClient({
   projectId: '98iq9hxm' ,//SANITY_PROJECT_ID,
   dataset: 'production', //SANITY_DATASET,
-  token: 'skjQ08BmnLkpT5q4HKrpktA6ctGaL3zxRIgsP4qzExm0cSSIk4wsGQ8nqvaEsJLR5Np7F4NcYaFNEJEfOMlGs8xewdy1YjuCIHkTw0raRB0esBlVjAVwWLWNofFnhlpE0DDf7BMkxMI53NhTiRCj900s6E9KYOGnWLyH36FktbZvqUMy1O03',//SANITY_API_TOKEN,
+  token: 'skI9TbvOyRZ3AcnqxuaE6QrcQ46UZvhdoAGvy0Dm97lO9ShzROH1Srkcr4C4kbm3TzPz96fdGbmHy3uHt1uRwve0VDiW0qeQPQRGHcP5LBz5Wt1wMBy3B7wR7JKWYs1ChywevouZ18HFn7cZvzC3Xzyhume2bJtN67Cc27sM0GFmCatda66d',//SANITY_API_TOKEN,
   useCdn: true
 });
 
