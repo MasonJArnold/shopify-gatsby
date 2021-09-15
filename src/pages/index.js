@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/Layout/Layout"
 import SEO from "../components/seo"
-import 'reset-css'
+// import 'reset-css'
 
 const IndexPage = () => {
 	
