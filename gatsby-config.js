@@ -32,12 +32,12 @@ module.exports = {
         icon: `src/images/favicon/apple-icon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-plugin-robots-txt',
-      options: {
-        policy: [{ userAgent: '*', allow: ['/'] }]
-      }
-    },
+//     {
+//       resolve: 'gatsby-plugin-robots-txt',
+//       options: {
+//         policy: [{ userAgent: '*', allow: ['/'] }]
+//       }
+//     },
     // {
     //   resolve: `gatsby-plugin-transition-link`,
     //   options: {
