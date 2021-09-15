@@ -67,20 +67,20 @@ module.exports = {
     },
     `gatsby-plugin-typescript`,
     `gatsby-plugin-tslint`,
-    // {
-    //   resolve: `gatsby-plugin-postcss`,
-    //   options: {
-    //     postCssPlugins: [
-    //       require(`postcss-preset-env`)({ stage: 0 }),
-    //       require('postcss-import'),
-    //       require('postcss-nested'),
-    //       require('postcss-cssnext'),
-    //       require('postcss-calc'),
-    //       require('postcss-discard-comments'),
-    //       require('postcss-reporter')
-    //     ]
-    //   }
-    // },
+    {
+      resolve: `gatsby-plugin-postcss`,
+      // options: {
+      //   postCssPlugins: [
+      //     require(`postcss-preset-env`)({ stage: 0 }),
+      //     require('postcss-import'),
+      //     require('postcss-nested'),
+      //     require('postcss-cssnext'),
+      //     require('postcss-calc'),
+      //     require('postcss-discard-comments'),
+      //     require('postcss-reporter')
+      //   ]
+      // }
+    },
   
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
